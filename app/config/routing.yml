@@ -1,0 +1,5 @@
+tim_balde_fashion:
+    resource: "@timBaldeFashionBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

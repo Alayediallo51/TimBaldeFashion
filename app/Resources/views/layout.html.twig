@@ -1,0 +1,394 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Tim Balde Fashion{% endblock %}
+
+{#chargement de tous les fichiers css#}
+{% block stylesheets %}
+    {% stylesheets filter='cssrewrite, ?scssphp'
+         'css/bootstrap.min.css'
+         'css/style.css'
+         'css/font-awesome.css'
+         'css/easy-responsive-tabs.css'
+    %}
+         <link rel="stylesheet" href="{{ asset_url }}">
+    {% endstylesheets %}
+{% endblock %}
+
+{# Contenue #}
+{% block body %}
+    <!-- header -->
+    <div class="header" id="home">
+        <div class="container">
+            <ul>
+                <li> <a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Se connecter </a></li>
+                <li> <a href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Inscrivez-vous </a></li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> tel : 01234567898</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">info@example.com</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- //header -->
+    <!-- header-bot -->
+    <div class=" row"  style="height: 130px">
+        <div class="col-md-2" style="margin-top: 10px"><a href="A revoir"><img src="{{ asset('images/logoD11.PNG') }}" ></a></div>
+        <div class="col-md-4 col-md-push-1 header-middle" style="margin-top: 40px">
+            <form action="#" method="post">
+            <input type="search" name="search" placeholder="Search here..." required="">
+            <input type="submit" value=" ">
+            <div class="clearfix"></div>
+            </form>
+        </div>
+        <div class="agileits-social top_content col-md-4 col-md-push-1" style="margin-top: 30px">
+            <ul class="social-nav model-3d-0 footer-social w3_agile_social">
+                <li class="share">Suivez - moi : </li>
+                <li><a href="#" class="facebook">
+                    <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                <li><a href="#" class="twitter">
+                    <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                <li><a href="#" class="instagram">
+                    <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                <li><a href="#" class="pinterest">
+                    <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                    <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="ban-top">
+        <div class="container">
+            <div class="top_nav_left">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse menu--shylock text-center" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav menu__list">
+                                <li class=" menu__item"><a class="menu__link" href="about.html">A PROPOS </a></li>
+                                <li class="menu__item">
+                                    <a href="mens.html" class="menu__link">HOMMES</a>
+                                    <!--<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">HOMMES <span class="caret"></span></a>-->
+                                    <!--<ul class="dropdown-menu multi-column columns-3">-->
+                                    <!--<div class="agile_inner_drop_nav_info">-->
+                                    <!--<div class="col-sm-6 multi-gd-img1 multi-gd-text ">-->
+                                    <!--<a href="mens.html"><img src="images/top2.jpg" alt=" "/></a>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-sm-3 multi-gd-img">-->
+                                    <!--<ul class="multi-column-dropdown">-->
+                                    <!--<li><a href="mens.html">Sacs</a></li>-->
+                                    <!--<li><a href="mens.html">Chaussures</a></li>-->
+                                    <!--</ul>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-sm-3 multi-gd-img">-->
+                                    <!--<ul class="multi-column-dropdown">-->
+                                    <!--<li><a href="mens.html">Habits traditionnels</a></li>-->
+                                    <!--</ul>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                    <!--</div>-->
+                                    <!--</ul>-->
+                                </li>
+                                <li class="menu__item">
+                                    <a href="womens.html" class="menu__link">FEMMES</a>
+                                    <!--<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FEMMES<span class="caret"></span></a>-->
+                                    <!--<ul class="dropdown-menu multi-column columns-3">-->
+                                    <!--<div class="agile_inner_drop_nav_info">-->
+                                    <!--<div class="col-sm-3 multi-gd-img">-->
+                                    <!--<ul class="multi-column-dropdown">-->
+                                    <!--<li><a href="womens.html">Clothing</a></li>-->
+                                    <!--<li><a href="womens.html">Wallets</a></li>-->
+                                    <!--</ul>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-sm-3 multi-gd-img">-->
+                                    <!--<ul class="multi-column-dropdown">-->
+                                    <!--<li><a href="womens.html">Jewellery</a></li>-->
+                                    <!--</ul>-->
+                                    <!--</div>-->
+                                    <!--<div class="col-sm-6 multi-gd-img multi-gd-text ">-->
+                                    <!--<a href="womens.html"><img src="images/top1.jpg" alt=" "/></a>-->
+                                    <!--</div>-->
+                                    <!--<div class="clearfix"></div>-->
+                                    <!--</div>-->
+                                    <!--</ul>-->
+                                </li>
+                                <li class=" menu__item"><a class="menu__link" href="contact.html">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="top_nav_right">
+                <div class="wthreecartaits wthreecartaits2 cart cart box_1">
+                    <form action="#" method="post" class="last">
+                        <input type="hidden" name="cmd" value="_cart">
+                        <input type="hidden" name="display" value="1">
+                        <button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- //banner-top -->
+    <!-- Modal1 -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body modal-body-sub_agile">
+                    <div class="col-md-8 modal_body_left modal_body_left1">
+                        <h3 class="agileinfo_sign">Sign In <span>Now</span></h3>
+                        <form action="#" method="post">
+                            <div class="styled-input agile-styled-input-top">
+                                <input type="text" name="Name" required="">
+                                <label>Name</label>
+                                <span></span>
+                            </div>
+                            <div class="styled-input">
+                                <input type="email" name="Email" required="">
+                                <label>Email</label>
+                                <span></span>
+                            </div>
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <p><a href="#" data-toggle="modal" data-target="#myModal2" > Don't have an account?</a></p>
+
+                    </div>
+                    <div class="col-md-4 modal_body_right modal_body_right1">
+                        <img src="images/log_pic.jpg" alt=" "/>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- //Modal content-->
+        </div>
+    </div>
+    <!-- //Modal1 -->
+    <!-- Modal2 -->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body modal-body-sub_agile">
+                    <div class="col-md-8 modal_body_left modal_body_left1">
+                        <h3 class="agileinfo_sign">Sign Up <span>Now</span></h3>
+                        <form action="#" method="post">
+                            <div class="styled-input agile-styled-input-top">
+                                <input type="text" name="Name" required="">
+                                <label>Name</label>
+                                <span></span>
+                            </div>
+                            <div class="styled-input">
+                                <input type="email" name="Email" required="">
+                                <label>Email</label>
+                                <span></span>
+                            </div>
+                            <div class="styled-input">
+                                <input type="password" name="password" required="">
+                                <label>Password</label>
+                                <span></span>
+                            </div>
+                            <div class="styled-input">
+                                <input type="password" name="Confirm Password" required="">
+                                <label>Confirm Password</label>
+                                <span></span>
+                            </div>
+                            <input type="submit" value="Sign Up">
+                        </form>
+                        <ul class="social-nav model-3d-0 footer-social w3_agile_social top_agile_third">
+                            <li><a href="#" class="facebook">
+                                    <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                            <li><a href="#" class="twitter">
+                                    <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                            <li><a href="#" class="instagram">
+                                    <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                            <li><a href="#" class="pinterest">
+                                    <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                                    <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <p><a href="#">By clicking register, I agree to your terms</a></p>
+
+                    </div>
+                    <div class="col-md-4 modal_body_right modal_body_right1">
+                        <img src="images/log_pic.jpg" alt=" "/>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- //Modal content-->
+        </div>
+    </div>
+    <!-- //Modal2 -->
+    {# place du carousel #}
+    {% block carousel %}
+    {% endblock %}
+
+    {% block contents %} {% endblock %}
+
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_agile_inner_info_w3l">
+            <div class="col-md-3 footer-left">
+                <h2><a href="index.html"><img src="images/logoD11.PNG" ></a></h2>
+                <p>Lorem ipsum quia dolor
+                    sit amet, consectetur, adipisci velit, sed quia non
+                    numquam eius modi tempora.</p>
+                <ul class="social-nav model-3d-0 footer-social w3_agile_social two">
+                    <li><a href="#" class="facebook">
+                            <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a></li>
+                    <li><a href="#" class="twitter">
+                            <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a></li>
+                    <li><a href="#" class="instagram">
+                            <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a></li>
+                    <li><a href="#" class="pinterest">
+                            <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                            <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a></li>
+                </ul>
+            </div>
+            <div class="col-md-9 footer-right">
+                <div class="sign-grds">
+                    <div class="col-md-4 col-md-push-1 sign-gd">
+                        <h4>Menus</h4>
+                        <ul>
+                            <li><a href="mens.html">HOMMES</a></li>
+                            <li><a href="womens.html">FEMMES</a></li>
+                            <li><a href="about.html">A PROPOS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-7 sign-gd-two text-center">
+                        <h4>Store <span>Information</span></h4>
+                        <div class="w3-address">
+                            <div class="w3-address-grid">
+                                <div class="w3-address-left">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="w3-address-right">
+                                    <h6>Tel:</h6>
+                                    <p>+1 234 567 8901</p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="w3-address-grid">
+                                <div class="w3-address-left">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="w3-address-right">
+                                    <h6>Email Address</h6>
+                                    <p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                            <div class="w3-address-grid">
+                                <div class="w3-address-left">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="w3-address-right">
+                                    <h6>Addresse</h6>
+                                    <p>Broome St, NY 10002,California, USA.
+
+                                    </p>
+                                </div>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-md-3 sign-gd flickr-post">-->
+                    <!--<h4>Flickr <span>Posts</span></h4>-->
+                    <!--<ul>-->
+                    <!--<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t1.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t3.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t2.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--<li><a href="single.html"><img src="images/t4.jpg" alt=" " class="img-responsive" /></a></li>-->
+                    <!--</ul>-->
+                    <!--</div>-->
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!--<div class="clearfix"></div>-->
+            <div class="agile_newsletter_footer">
+                <!--<div class="col-sm-6 newsleft">-->
+                <!--<h3>SIGN UP FOR NEWSLETTER !</h3>-->
+                <!--</div>-->
+                <!--<div class="col-sm-6 newsright">-->
+                <!--<form action="#" method="post">-->
+                <!--<input type="email" placeholder="Enter your email..." name="email" required="">-->
+                <!--<input type="submit" value="Submit">-->
+                <!--</form>-->
+                <!--</div>-->
+
+                <div class="clearfix"></div>
+            </div>
+            <p class="copy-right">&copy 2017 tim balde fashion | tous droit réservés</p>
+        </div>
+    </div>
+    <!-- //footer -->
+{% endblock %}
+
+{#utilisation de tous les fichier Js#}
+{% block javascripts %}
+    {% javascripts filter='cssrewrite, ?jsqueeze'
+        'js/jquery-2.1.4.min.js'
+        'js/modernizr.custom.js'
+        'js/minicart.min.js'
+        'js/easy-responsive-tabs.js'
+        'js/jquery.waypoints.min.js'
+        'js/jquery.countup.js'
+        'js/move-top.js'
+        'js/jquery.easing.min.js'
+        'js/bootstrap.min.js'
+        'js/styleJs.js'
+    %}
+        <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+    <script></script>
+{% endblock %}

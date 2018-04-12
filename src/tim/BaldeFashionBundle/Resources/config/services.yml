@@ -1,0 +1,4 @@
+services:
+#    tim_balde_fashion.example:
+#        class: tim\BaldeFashionBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
