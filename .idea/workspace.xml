@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baad65a7-c533-4d24-8d5d-543722767b4a" name="Default" comment="" />
+    <list default="true" id="baad65a7-c533-4d24-8d5d-543722767b4a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/FemmesController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/HommesController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Femmes/accueilF.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Hommes/accueilH.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/font/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projetTima.iml" afterPath="$PROJECT_DIR$/.idea/projetTima.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,31 +30,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HommesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/HommesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="44" />
+              <folding>
+                <element signature="e#134#191#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="FemmesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/FemmesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="44" />
               <folding>
-                <marker date="1523551883484" expanded="true" signature="493:1118" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-                <marker date="1523551883484" expanded="true" signature="1139:1230" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-                <marker date="1523551883484" expanded="true" signature="1247:1978" ph="{...}" />
-                <marker date="1523551883484" expanded="true" signature="1276:1829" ph="[...]" />
-                <marker date="1523551883484" expanded="true" signature="1859:1901" ph="[...]" />
-                <marker date="1523551883484" expanded="true" signature="1930:1972" ph="[...]" />
-                <marker date="1523551883484" expanded="true" signature="1994:2031" ph="{&quot;sort-packages&quot;: true...}" />
-                <marker date="1523551883484" expanded="true" signature="2300:2359" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
+                <element signature="e#133#180#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,9 +58,45 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="e#53#110#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueilF.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Femmes/accueilF.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <element signature="e#6764#26831#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueilH.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Hommes/accueilH.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#717#26899#0#HTML" expanded="false" />
+                <element signature="e#6842#9318#0#HTML" expanded="false" />
+                <element signature="e#9335#11814#0#HTML" expanded="false" />
+                <element signature="e#9390#11791#0#HTML" expanded="false" />
+                <element signature="e#11831#14315#0#HTML" expanded="false" />
+                <element signature="e#14332#16813#0#HTML" expanded="false" />
+                <element signature="e#16830#19306#0#HTML" expanded="false" />
+                <element signature="e#19323#21791#0#HTML" expanded="false" />
+                <element signature="e#21808#24280#0#HTML" expanded="false" />
+                <element signature="e#24297#26777#0#HTML" expanded="false" />
+                <element signature="e#26983#29030#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,21 +104,14 @@
       <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="576">
+              <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
               <folding>
                 <element signature="e#1211#1232#0#HTML" expanded="true" />
                 <element signature="e#1264#1288#0#HTML" expanded="true" />
-                <element signature="e#1423#1447#0#HTML" expanded="true" />
-                <element signature="e#1774#1798#0#HTML" expanded="true" />
-                <element signature="e#2994#8624#0#HTML" expanded="false" />
-                <element signature="e#4269#5998#0#HTML" expanded="false" />
-                <element signature="e#6031#7758#0#HTML" expanded="false" />
-                <element signature="e#8675#11759#0#HTML" expanded="false" />
-                <element signature="e#8970#8977#1#HTML" expanded="true" />
-                <element signature="e#11806#15434#0#HTML" expanded="false" />
-                <element signature="e#12102#12109#1#HTML" expanded="true" />
-                <element signature="e#15597#21902#0#HTML" expanded="false" />
+                <element signature="e#1445#1469#0#HTML" expanded="true" />
+                <element signature="e#1796#1820#0#HTML" expanded="true" />
+                <element signature="e#8122#8596#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -86,50 +130,8 @@
       <file leaf-file-name="accueil.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/accueil.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="22449">
               <caret line="1340" column="23" lean-forward="false" selection-start-line="1340" selection-start-column="23" selection-end-line="1340" selection-end-column="23" />
-              <folding>
-                <element signature="e#2090#92650#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleJs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/styleJs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -142,7 +144,11 @@
       <find>horizontalTab</find>
       <find>a</find>
       <find>fa fa-cart-arrow-down</find>
+      <find>COMMUNITY POLL</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,10 +160,16 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/layout.html.twig" />
         <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/web/js/styleJs.js" />
         <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/accueil.html.twig" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/web/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Hommes/accueil.html.twig" />
+        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Femmes/accueilF.html.twig" />
+        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Hommes/accueilH.html.twig" />
+        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/FemmesController.php" />
+        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/HommesController.php" />
+        <option value="$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/layout.html.twig" />
       </list>
     </option>
@@ -196,43 +208,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tim" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tim" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="BaldeFashionBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tim" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="BaldeFashionBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tim" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="BaldeFashionBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tim" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="BaldeFashionBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -240,36 +277,20 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TimBaldeFashion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TimBaldeFashion" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tim" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="BaldeFashionBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Default" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="projetTima" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projetTima" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="font" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Hommes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -307,11 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523538906719</updated>
       <workItem from="1523538910425" duration="12883000" />
+      <workItem from="1523625371138" duration="7347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12883000" />
+    <option name="totallyTimeSpent" value="20230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -319,20 +341,20 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -347,11 +369,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="e#53#110#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/modernizr.custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22780">
+          <caret line="1340" column="23" lean-forward="false" selection-start-line="1340" selection-start-column="23" selection-end-line="1340" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/styleJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#1211#1232#0#HTML" expanded="true" />
+            <element signature="e#1264#1288#0#HTML" expanded="true" />
+            <element signature="e#1445#1469#0#HTML" expanded="true" />
+            <element signature="e#1796#1820#0#HTML" expanded="true" />
+            <element signature="e#8122#8596#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -359,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -367,24 +475,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="612">
           <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding>
-            <marker date="1523551883484" expanded="true" signature="493:1118" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1523551883484" expanded="true" signature="1139:1230" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1523551883484" expanded="true" signature="1247:1978" ph="{...}" />
-            <marker date="1523551883484" expanded="true" signature="1276:1829" ph="[...]" />
-            <marker date="1523551883484" expanded="true" signature="1859:1901" ph="[...]" />
-            <marker date="1523551883484" expanded="true" signature="1930:1972" ph="[...]" />
-            <marker date="1523551883484" expanded="true" signature="1994:2031" ph="{&quot;sort-packages&quot;: true...}" />
-            <marker date="1523551883484" expanded="true" signature="2300:2359" ph="{&quot;file&quot;: &quot;app/config/parameters.yml&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,32 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/styleJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/accueil.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="1340" column="23" lean-forward="false" selection-start-line="1340" selection-start-column="23" selection-end-line="1340" selection-end-column="23" />
-          <folding>
-            <element signature="e#2090#92650#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/modernizr.custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -446,39 +518,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/web/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="62" lean-forward="false" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="389">
           <caret line="72" column="39" lean-forward="false" selection-start-line="72" selection-start-column="39" selection-end-line="72" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/styleJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Hommes/accueilH.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="e#717#26899#0#HTML" expanded="false" />
+            <element signature="e#6842#9318#0#HTML" expanded="false" />
+            <element signature="e#9335#11814#0#HTML" expanded="false" />
+            <element signature="e#9390#11791#0#HTML" expanded="false" />
+            <element signature="e#11831#14315#0#HTML" expanded="false" />
+            <element signature="e#14332#16813#0#HTML" expanded="false" />
+            <element signature="e#16830#19306#0#HTML" expanded="false" />
+            <element signature="e#19323#21791#0#HTML" expanded="false" />
+            <element signature="e#21808#24280#0#HTML" expanded="false" />
+            <element signature="e#24297#26777#0#HTML" expanded="false" />
+            <element signature="e#26983#29030#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Femmes/accueilF.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <element signature="e#6764#26831#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/HommesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#134#191#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="79" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Resources/views/Default/accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22449">
+          <caret line="1340" column="23" lean-forward="false" selection-start-line="1340" selection-start-column="23" selection-end-line="1340" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#53#110#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tim/BaldeFashionBundle/Controller/FemmesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="e#133#180#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="576">
+          <caret line="64" column="49" lean-forward="true" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
           <folding>
             <element signature="e#1211#1232#0#HTML" expanded="true" />
             <element signature="e#1264#1288#0#HTML" expanded="true" />
-            <element signature="e#1423#1447#0#HTML" expanded="true" />
-            <element signature="e#1774#1798#0#HTML" expanded="true" />
-            <element signature="e#2994#8624#0#HTML" expanded="false" />
-            <element signature="e#4269#5998#0#HTML" expanded="false" />
-            <element signature="e#6031#7758#0#HTML" expanded="false" />
-            <element signature="e#8675#11759#0#HTML" expanded="false" />
-            <element signature="e#8970#8977#1#HTML" expanded="true" />
-            <element signature="e#11806#15434#0#HTML" expanded="false" />
-            <element signature="e#12102#12109#1#HTML" expanded="true" />
-            <element signature="e#15597#21902#0#HTML" expanded="false" />
+            <element signature="e#1445#1469#0#HTML" expanded="true" />
+            <element signature="e#1796#1820#0#HTML" expanded="true" />
+            <element signature="e#8122#8596#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

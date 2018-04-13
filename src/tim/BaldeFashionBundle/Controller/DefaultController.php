@@ -3,12 +3,12 @@
 namespace tim\BaldeFashionBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Symfony\Component\Routing\Annotation\Route;
 
 class DefaultController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/",name="accueil_principal")
      */
     public function indexAction()
     {
